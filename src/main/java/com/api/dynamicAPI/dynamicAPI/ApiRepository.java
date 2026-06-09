@@ -1,5 +1,7 @@
 package com.api.dynamicAPI.dynamicAPI;
 
-public class ApiRepository {
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface ApiRepository extends MongoRepository<Api, String> {
 
 }
